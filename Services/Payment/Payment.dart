@@ -26,7 +26,7 @@ class ZarinPal_Payment extends MyPayment {
     _paymentRequest.setIsSandBox(true);
     _paymentRequest.setAmount(price);
     _paymentRequest.setDescription(description);
-    _paymentRequest.setMerchantID('76a4f6ca-668b-4e54-9b7d-52a5b4cb5277');
+    _paymentRequest.setMerchantID('');
     _paymentRequest.setCallbackURL('abolfazl://apple.store');
 
     linkStream.listen((deepLink) {
